@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-size: 62.5%;
+}
+
+.header-image {
+  width: 2.5rem;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.nav-bar {
+  display: flex;
+  background-color: #21222a;
+  justify-content: space-between;
+  color: #fff;
+  align-items: center;
+
+  padding: 1.5rem 1rem;
+}
