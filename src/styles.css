@@ -1,14 +1,15 @@
-* {
+/* * {
   padding: 0;
   margin: 0;
-}
+} */
 
 body {
   font-size: 62.5%;
+  background-color: #282d35;
 }
 
 .header-image {
-  width: 2.5rem;
+  width: 2rem;
 }
 
 .logo-container {
@@ -24,4 +25,33 @@ body {
   align-items: center;
 
   padding: 1.5rem 1rem;
+}
+
+.header-banner {
+  color: #00d8ff;
+  font-size: 1.7rem;
+  margin: 0;
+}
+
+.nav-banner {
+  font-weight: 500;
+  font-size: 1.3rem;
+  margin: 0;
+}
+
+.main-page {
+  color: #fff;
+  padding: 2rem;
+}
+
+.main-page--header {
+  font-size: 3rem;
+}
+
+.main-page li {
+  font-size: 1.3rem;
+}
+
+li::marker {
+  color: #00d8ff;
 }
